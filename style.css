@@ -1,0 +1,817 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+nav li {
+  display: none;
+}
+
+nav h1 {
+  text-align: center;
+
+  font-family: "Rouge Script", cursive;
+  color: #fad362;
+  font-size: 50px;
+  margin-top: 20px;
+}
+body {
+  text-align: center;
+}
+
+.featuredM {
+  scale: 1.8;
+  width: 75%;
+  margin-top: 30%;
+}
+
+section h2 {
+  margin-top: 25%;
+  margin-bottom: 5%;
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+  color: #1d1d1f;
+}
+
+.tagPc {
+  margin-top: 25%;
+  margin-bottom: 5%;
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+  color: #1d1d1f;
+  display: none;
+}
+
+.firstBtn {
+  width: 90%;
+  height: 50px;
+  border-radius: 8px;
+  border: 2px solid #fad362;
+  background: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  color: #1d1d1f;
+}
+
+.menu-cont1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20%;
+  cursor: pointer;
+}
+
+.menu-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 90%;
+  border: 3px solid #fad362;
+  object-fit: cover;
+
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  border-radius: 8px;
+  color: #1d1d1f;
+}
+.blackCake {
+  height: 5vh;
+}
+
+.price-cont1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  cursor: pointer;
+}
+
+.price-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 90%;
+  border: 3px solid #fad362;
+  object-fit: cover;
+
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  border-radius: 8px;
+  color: #1d1d1f;
+}
+.priceTag {
+  height: 5vh;
+}
+
+.social-cont1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  cursor: pointer;
+}
+
+.social-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 90%;
+  border: 3px solid #fad362;
+  object-fit: cover;
+
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  border-radius: 8px;
+  color: #1d1d1f;
+}
+.social {
+  height: 5vh;
+}
+
+footer {
+  height: 100px;
+  width: 100%;
+  background-color: #fad362;
+  color: white;
+  margin-top: 30%;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  font-family: "Rouge Script", cursive;
+}
+
+.contac {
+  display: none;
+}
+
+.emph {
+  display: none;
+}
+
+.maps {
+  margin: auto;
+  width: 90%;
+  margin-top: 50px;
+}
+
+.tower {
+  scale: 0.6;
+  position: absolute;
+  right: -15%;
+  display: none;
+}
+
+.pclogo {
+  display: none;
+}
+
+.featuredP {
+  scale: 1.8;
+  width: 75%;
+  margin-top: 30%;
+  display: none;
+}
+body {
+  overflow-x: hidden;
+}
+
+.pcBtn {
+  display: none;
+}
+
+@media all and (min-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  header {
+    width: 100%;
+    height: 100px;
+    background-color: #fad362;
+    display: flex;
+  }
+  body {
+    overflow-x: hidden;
+  }
+
+  .main-nav {
+    margin-top: 40px;
+  }
+
+  nav li {
+    display: block;
+    display: inline;
+    margin: 85px;
+
+    font-family: "Poppins", sans-serif;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  nav li:hover {
+    color: #fad362;
+  }
+
+  nav h1 {
+    color: white;
+  }
+
+  .firstBtn {
+    transition: 0.3s ease-in-out;
+  }
+  .firstBtn:hover {
+    color: #fad362;
+  }
+
+  .menu-cont1 {
+    margin-top: 10%;
+  }
+
+  .featuredM {
+    width: 100%;
+  }
+  .featuredP {
+    width: 100%;
+    display: none;
+  }
+
+  .links {
+    margin-top: 10%;
+  }
+
+  .social-cont {
+    width: 40%;
+    transition: 0.3s ease-in-out;
+  }
+
+  .social-cont:hover {
+    color: #fad362;
+  }
+  .price-cont {
+    width: 40%;
+    transition: 0.3s ease-in-out;
+  }
+
+  .price-cont:hover {
+    color: #fad362;
+  }
+  .menu-cont {
+    width: 40%;
+    transition: 0.3s ease-in-out;
+  }
+
+  .menu-cont:hover {
+    color: #fad362;
+  }
+
+  .social-cont1 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 40px;
+    cursor: pointer;
+  }
+
+  .price-cont1 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 5%;
+    cursor: pointer;
+    margin-left: 40px;
+  }
+
+  .menu-cont1 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 40px;
+    cursor: pointer;
+  }
+
+  .tower {
+    display: block;
+    right: -25%;
+    margin-top: -28%;
+    scale: 0.6;
+  }
+
+  .pcBtn {
+    display: none;
+  }
+  .tower:hover {
+    transform: scale(1.1);
+  }
+  .pclogo {
+    display: none;
+  }
+
+  footer {
+    height: 300px;
+    width: 100%;
+    background-color: #fad362;
+    color: white;
+
+    font-size: 30px;
+
+    text-align: left;
+  }
+
+  .footCont {
+    text-align: center;
+  }
+
+  .footCont h2 {
+    font-family: "Rouge Script", cursive;
+  }
+
+  footer img {
+    height: 5vh;
+    margin: 10px;
+  }
+
+  footer h2 {
+    font-family: "Rouge Script", cursive;
+    color: #f5f5f7;
+    font-size: 40px;
+
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .contac {
+    position: absolute;
+    margin-left: -40%;
+    display: flex;
+
+    flex-direction: column;
+  }
+
+  .emph {
+    display: block;
+    text-align: left;
+  }
+
+  .emph p {
+    position: relative;
+    bottom: -20px;
+    margin-bottom: 30px;
+    color: #f5f5f7;
+    font-family: "Roboto Mono", monospace;
+    margin-left: 18%;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  header {
+    width: 100%;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 0;
+    margin: 0;
+  }
+
+  body {
+    text-align: left;
+  }
+
+  .pclogo {
+    display: block;
+    margin: 0;
+    font-family: "Rouge Script", cursive;
+    font-size: 50px;
+    color: #fad362;
+    margin-left: 50px;
+
+    margin-top: -10px;
+  }
+  .main-nav {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .nav1 {
+    margin-top: 5px;
+    margin-right: -100px;
+  }
+
+  nav li {
+    margin: 20px;
+    margin-top: 0;
+    padding: 0;
+    font-size: 20px;
+  }
+
+  .featuredM {
+    display: none;
+  }
+
+  .featuredP {
+    position: absolute;
+    display: block;
+    top: 0;
+    z-index: -1;
+    scale: 1.15;
+    width: 100%;
+    margin-top: 13%;
+  }
+  .tagPc {
+    font-size: 35px;
+    font-family: "Poppins", sans-serif;
+    color: #1d1d1f;
+    display: block;
+    margin-top: 32%;
+    margin-left: 50px;
+    font-weight: bold;
+  }
+
+  .tagM {
+    display: none;
+  }
+
+  .firstBtn {
+    display: none;
+  }
+  .links {
+    text-align: center;
+    margin-top: 30%;
+    margin-left: 20px;
+  }
+
+  .pcBtn {
+    display: block;
+    width: 35%;
+    margin-left: 50px;
+    height: 80px;
+    border-radius: 8px;
+    background: none;
+    border: 3px solid #f5f5f7;
+    font-size: 30px;
+    transition: 0.3s ease-in-out;
+    margin-top: -1%;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .pcBtn:hover {
+    color: #f5f5f7;
+  }
+
+  .menu-cont {
+    width: 55%;
+  }
+
+  .social-cont {
+    width: 55%;
+  }
+
+  .price-cont {
+    width: 55%;
+  }
+
+  .tower {
+    position: absolute;
+
+    right: -35%;
+    margin-top: -30%;
+
+    scale: 0.41;
+    transition: 0.3s ease-in-out;
+  }
+
+  .tower:hover {
+    scale: 0.43;
+  }
+
+  .maps {
+    margin-top: 10%;
+    margin-bottom: -20%;
+  }
+
+  footer img {
+    height: 10vh;
+    margin: 10px;
+  }
+
+  footer h2 {
+    font-family: "Rouge Script", cursive;
+    color: #f5f5f7;
+    font-size: 40px;
+
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .contac {
+    position: absolute;
+    margin-left: -40%;
+    display: flex;
+
+    flex-direction: column;
+  }
+
+  .emph {
+    display: block;
+    text-align: left;
+  }
+
+  .emph p {
+    position: relative;
+    bottom: -20px;
+    margin-bottom: 50px;
+    color: #f5f5f7;
+    font-family: "Roboto Mono", monospace;
+    margin-left: 18%;
+  }
+}
+
+@media all and (min-width: 1280px) {
+  header {
+    width: 100%;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 0;
+    margin: 0;
+  }
+
+  body {
+    text-align: left;
+  }
+
+  .pclogo {
+    display: block;
+    margin: 0;
+    font-family: "Rouge Script", cursive;
+    font-size: 50px;
+    color: #fad362;
+    margin-left: 50px;
+
+    margin-top: -10px;
+  }
+  .main-nav {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .nav1 {
+    margin-top: 10px;
+    margin-right: -50px;
+  }
+
+  nav li {
+    margin: 40px;
+    margin-top: 0;
+    padding: 0;
+    font-size: 20px;
+  }
+
+  .featuredM {
+    display: none;
+  }
+
+  .featuredP {
+    position: absolute;
+    display: block;
+    top: 0;
+    z-index: -1;
+    scale: 1.15;
+    width: 100%;
+    margin-top: 13%;
+  }
+  .tagPc {
+    font-size: 35px;
+    font-family: "Poppins", sans-serif;
+    color: #1d1d1f;
+    display: block;
+    margin-top: 32%;
+    margin-left: 50px;
+    font-weight: bold;
+  }
+
+  .tagM {
+    display: none;
+  }
+
+  .firstBtn {
+    display: none;
+  }
+  .links {
+    text-align: center;
+    margin-top: 30%;
+    margin-left: 20px;
+  }
+
+  .pcBtn {
+    display: block;
+    width: 35%;
+    margin-left: 50px;
+    height: 80px;
+    border-radius: 8px;
+    background: none;
+    border: 3px solid #f5f5f7;
+    font-size: 30px;
+    transition: 0.3s ease-in-out;
+    margin-top: -1%;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .pcBtn:hover {
+    color: #f5f5f7;
+  }
+
+  .menu-cont {
+    width: 55%;
+  }
+
+  .social-cont {
+    width: 55%;
+  }
+
+  .price-cont {
+    width: 55%;
+  }
+
+  .tower {
+    position: absolute;
+
+    right: -30%;
+    margin-top: -35%;
+
+    scale: 0.41;
+    transition: 0.3s ease-in-out;
+  }
+
+  .tower:hover {
+    scale: 0.43;
+  }
+
+  footer {
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .maps {
+    margin-top: 10%;
+    margin-bottom: -20%;
+  }
+}
+
+@media all and (min-width: 1440px) {
+  header {
+    width: 100%;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    margin: 0;
+  }
+
+  body {
+    text-align: left;
+  }
+
+  .pclogo {
+    display: block;
+    margin: 0;
+    font-family: "Rouge Script", cursive;
+    font-size: 50px;
+    color: #fad362;
+    margin-left: 50px;
+
+    margin-top: -10px;
+  }
+  .main-nav {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .nav1 {
+    margin-top: 10px;
+  }
+
+  nav li {
+    margin: 40px;
+    margin-top: 0;
+    padding: 0;
+    font-size: 20px;
+  }
+
+  footer h2 {
+    font-family: "Rouge Script", cursive;
+    color: #f5f5f7;
+    font-size: 40px;
+
+    text-align: center;
+    margin-bottom: 5px;
+  }
+
+  .emph p {
+    position: relative;
+    bottom: -40px;
+    margin-bottom: 50px;
+    color: #f5f5f7;
+    font-family: "Roboto Mono", monospace;
+    margin-left: 18%;
+  }
+}
+
+@media all and (min-width: 2560px) {
+  header {
+    width: 100%;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0;
+  }
+
+  body {
+    text-align: left;
+  }
+
+  .pclogo {
+    display: block;
+    margin: 0;
+    font-family: "Rouge Script", cursive;
+    font-size: 150px;
+    color: #fad362;
+    margin-left: 50px;
+    position: absolute;
+    margin-top: 10px;
+  }
+
+  span li {
+    margin-top: 900px;
+  }
+  .main-nav {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .nav1 li {
+    font-size: 60px;
+    margin-top: 90px;
+    position: relative;
+    right: -45%;
+  }
+
+  footer {
+    height: 600px;
+  }
+
+  footer h2 {
+    font-family: "Rouge Script", cursive;
+    color: #f5f5f7;
+    font-size: 90px;
+
+    text-align: center;
+    margin-bottom: 5px;
+  }
+
+  .emph p {
+    position: relative;
+    bottom: -60px;
+    margin-bottom: 80px;
+    color: #f5f5f7;
+    font-family: "Roboto Mono", monospace;
+    margin-left: 18%;
+    font-size: 50px;
+  }
+
+  .tagPc {
+    font-size: 60px;
+  }
+
+  .pcBtn {
+    width: 900px;
+    height: 120px;
+  }
+
+  .tower {
+    position: absolute;
+    top: 0;
+    margin-top: 40%;
+    scale: 0.33;
+  }
+
+  .maps {
+    margin-bottom: -20%;
+  }
+}
